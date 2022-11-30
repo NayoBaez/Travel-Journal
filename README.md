@@ -1,4 +1,4 @@
-[![MasterHead](https://raw.githubusercontent.com/NayoBaez/Airbnb-Experiences/master/GITHUB%20README%20BANNER%20AIRBNB.png)](https://nayobaez.com)
+[![MasterHead](https://raw.githubusercontent.com/NayoBaez/Travel-Journal/master/GITHUB%20README%20BANNERS%20MY%20TRAVEL%20JOURNAL.png)](https://nayobaez.com)
 
 # TRAVEL JOURNAL - In Progress
 
