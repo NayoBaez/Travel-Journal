@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "./Navbar";
 import Location from "./Location";
+import Footer from "./Footer";
 import data from "./data";
 import "./App.css";
 
@@ -13,6 +14,7 @@ function App() {
     <div className="App">
       <Navbar />
       {locations}
+      <Footer />
     </div>
   );
 }
