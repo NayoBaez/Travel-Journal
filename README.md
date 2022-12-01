@@ -4,6 +4,8 @@
 
 Converted this Travel Journal from a figma design into React.js as part of a Scrimba course solo challenge. The requirements were to recreate an application from a popular company who uses React.js. Relies on the map() function to render Javascript array of objects to the DOM.
 
+<img align="right" alt="portfolio" width="350" src="https://raw.githubusercontent.com/NayoBaez/Travel-Journal/792662073920ea241c834a8be57d44b37bfe6427/Travel-journey-react.png"></img>
+
 
 ## Tech Stack
 
