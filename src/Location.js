@@ -1,10 +1,10 @@
 import React from "react";
 
-export default function Location() {
+export default function Location(props) {
   return (
     <div className="location">
       <img
-        src="../images/mount-fuji.jpg"
+        src={props.location.imageUrl}
         alt="mount-fuji"
         className="location--img"
       />
@@ -12,16 +12,17 @@ export default function Location() {
         {" "}
         <img src="../images/pin.png" alt="pin" className="location--pin" />
       </span>
-      <span className="location--place">Japan</span>
-      <span>View on Google Maps</span>
-      <h1>Mount Fuji</h1>
-      <p>12 Jan, 2021 - 24 Jan, 2021</p>
-      <p className="location--description">
-        Mount Fuji is the tallest mountain in Japan, standing at 3,776 meters
-        (12,380 feet). Mount Fuji is the single most popular tourist site in
-        Japan, for both Japanese and foreign tourists.
+      <span className="location--country">{props.location.country}</span>
+      <span>
+        <a href={props.location.googleMapsUrl} className="location--google">
+          View on Google Maps
+        </a>
+      </span>
+      <h1 className="location--place">{props.location.place}</h1>
+      <p className="location--dates">
+        {props.location.startDate} - {props.location.endDate}
       </p>
-      <hr />
+      <p className="location--description">{props.location.description}</p>
     </div>
   );
 }
