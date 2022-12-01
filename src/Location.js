@@ -14,7 +14,12 @@ export default function Location(props) {
       </span>
       <span className="location--country">{props.location.country}</span>
       <span>
-        <a href={props.location.googleMapsUrl} className="location--google">
+        <a
+          href={props.location.googleMapsUrl}
+          className="location--google"
+          target="_blank"
+          rel="noreferrer"
+        >
           View on Google Maps
         </a>
       </span>
